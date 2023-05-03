@@ -124,4 +124,58 @@ h2 {
   width: 60%;
   text-align: center;
   padding-bottom: 4rem;
+  opacity: 0.5;
+}
+
+.container2 {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  margin: 4rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.img {
+  width: 25%;
+  height: 13vh;
+  margin: 5rem auto;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50rem;
+}
+
+#img1 {
+  background-image: url(./images/image-emily.jpg);
+}
+
+#img2 {
+  background-image: url(./images/image-thomas.jpg);
+}
+
+#img3 {
+  background-image: url(./images/image-jennie.jpg);
+}
+
+.clients {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.6rem;
+}
+
+h4 {
+  margin: 5rem 0 1rem 0;
+}
+
+span {
+  font-size: 1.2rem;
+  opacity: 0.5;
 }
