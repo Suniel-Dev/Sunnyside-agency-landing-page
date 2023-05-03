@@ -6,6 +6,9 @@
 
 :root {
   font-size: 62.5%;
+  font-family: "Bruno Ace", cursive;
+  font-family: "Kanit", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 a {
@@ -13,8 +16,21 @@ a {
   color: inherit;
 }
 
+p {
+  font-family: "Bruno Ace", cursive;
+}
+
 li {
   list-style: none;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+strong {
+  font-family: "Raleway", sans-serif;
 }
 
 header {
@@ -80,10 +96,12 @@ nav {
 h2 {
   font-size: 3rem;
   margin-bottom: 3.5rem;
+  font-family: "Raleway", sans-serif;
 }
 
 .btn {
   margin-top: 3rem;
+  text-shadow: 0 0 8px blue;
 }
 
 .two {
@@ -139,6 +157,7 @@ h3 {
   font-size: 3rem;
   text-transform: uppercase;
   opacity: 0.5;
+  font-family: "Raleway", sans-serif;
 }
 
 .img {
@@ -173,6 +192,7 @@ h3 {
 
 h4 {
   margin: 5rem 0 1rem 0;
+  font-family: "Raleway", sans-serif;
 }
 
 span {
@@ -207,6 +227,7 @@ h5 {
   font-size: 3rem;
   text-transform: uppercase;
   padding: 5rem;
+  font-family: "Raleway", sans-serif;
 }
 
 ul {
