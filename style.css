@@ -65,3 +65,27 @@ nav {
   font-size: 6rem;
   padding: 8rem;
 }
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.one {
+  width: 30%;
+  margin: auto;
+}
+
+.two {
+  background-image: url(./images/desktop/image-transform.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 90vh;
+}
+
+.four {
+  background-image: url(./images/desktop/image-stand-out.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 90vh;
+}
