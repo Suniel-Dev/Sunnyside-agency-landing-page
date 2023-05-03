@@ -179,3 +179,12 @@ span {
   font-size: 1.2rem;
   opacity: 0.5;
 }
+
+.container3 {
+  display: flex;
+  justify-content: center;
+}
+
+.container3 img {
+  width: 100%;
+}
