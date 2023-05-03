@@ -8,10 +8,31 @@
   font-size: 62.5%;
 }
 
-h1 {
-  font-size: 5rem;
-  color: red;
-  text-align: center;
-  margin: 4rem;
-  text-transform: uppercase;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  width: 80%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+  font-size: 2rem;
 }
