@@ -6,6 +6,9 @@
 
 :root {
   font-size: 62.5%;
+  font-family: "Bruno Ace", cursive;
+  font-family: "Kanit", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 a {
@@ -13,8 +16,21 @@ a {
   color: inherit;
 }
 
+p {
+  font-family: "Bruno Ace", cursive;
+}
+
 li {
   list-style: none;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+strong {
+  font-family: "Raleway", sans-serif;
 }
 
 header {
@@ -80,10 +96,12 @@ nav {
 h2 {
   font-size: 3rem;
   margin-bottom: 3.5rem;
+  font-family: "Raleway", sans-serif;
 }
 
 .btn {
   margin-top: 3rem;
+  text-shadow: 0 0 8px blue;
 }
 
 .two {
@@ -124,4 +142,104 @@ h2 {
   width: 60%;
   text-align: center;
   padding-bottom: 4rem;
+  opacity: 0.5;
+}
+
+.container2 {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  margin: 4rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  opacity: 0.5;
+  font-family: "Raleway", sans-serif;
+}
+
+.img {
+  width: 25%;
+  height: 13vh;
+  margin: 5rem auto;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50rem;
+}
+
+#img1 {
+  background-image: url(./images/image-emily.jpg);
+}
+
+#img2 {
+  background-image: url(./images/image-thomas.jpg);
+}
+
+#img3 {
+  background-image: url(./images/image-jennie.jpg);
+}
+
+.clients {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.6rem;
+}
+
+h4 {
+  margin: 5rem 0 1rem 0;
+  font-family: "Raleway", sans-serif;
+}
+
+span {
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+}
+
+.container3 img {
+  width: 100%;
+  height: 80vh;
+}
+
+footer {
+  background-color: gray;
+}
+
+.end {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h5 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 5rem;
+  font-family: "Raleway", sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 9rem;
+  font-size: 2rem;
+  padding: 5rem;
+}
+
+.icons {
+  font-size: 4rem;
+  padding: 4rem;
+  word-spacing: 3rem;
 }

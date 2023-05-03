@@ -8,6 +8,10 @@
   <title>Sunnyside agency landing page</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/a876eaff52.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Kanit:wght@300&family=Raleway&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -16,10 +20,10 @@
       <div class="nav-bar">
         <strong>Sunnyside</strong>
         <ul class="nav-items">
-          <li><a href="#1">About</a></li>
-          <li><a href="#2">Services</a></li>
-          <li><a href="#3">Projects</a></li>
-          <li class="btn-nav"><a href="#4">Contact</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Services"">Services</a></li>
+          <li><a href=" #Projects">Projects</a></li>
+          <li class="btn-nav"><a href="#Contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -29,7 +33,7 @@
     </div>
   </header>
   <main>
-    <section class="container1">
+    <section id="About" class="container1">
       <div class="hero">
         <div class="one">
           <h2>Transform your brand</h2>
@@ -38,13 +42,13 @@
             compelling visuals that do most of the marketing for you.
           </p>
           <div class="btn">
-            <a href="#">Learn more</a>
+            <a href="#Learn-more">Learn more</a>
           </div>
         </div>
-        <div class="two"><img src="" alt=""></div>
+        <div class="two"></div>
       </div>
       <div class="hero">
-        <div class="four"><img src="" alt=""></div>
+        <div class="four"></div>
         <div class="one">
           <h2>Stand out to the right
             audience
@@ -54,7 +58,7 @@
             build and extend your brand in digital places.
           </p>
           <div class="btn">
-            <a href="#">Learn more</a>
+            <a href="#Learn-more">Learn more</a>
           </div>
         </div>
       </div>
@@ -79,7 +83,70 @@
         </div>
       </div>
     </section>
+    <section id="Services" class="container2">
+      <div>
+        <h3>client testimonials</h3>
+      </div>
+      <div class="clients">
+        <div class="client1">
+          <div id="img1" class="img"></div>
+          <p>We put our trust in Sunnyside and they
+            delivered, making sure our needs were met
+            and deadlines were always hit.
+          </p>
+          <h4>Emily R.
+          </h4>
+          <div>
+            <span> Marketing Director</span>
+          </div>
+        </div>
+        <div class="client2">
+          <div id="img2" class="img"></div>
+          <p>Sunnyside’s enthusiasm coupled with their
+            keen interest in our brand's success made it
+            asatisfying and enjoyable experience.
+          </p>
+          <h4>Thomas S.</h4>
+          <div>
+            <span>Chief Operating Officer</span>
+          </div>
+        </div>
+        <div class="client3">
+          <div id="img3" class="img"></div>
+          <p>Incredible end result! Our sales increased
+            over 400% when we worked with Sunnyside.
+            Highly recommended!
+          </p>
+          <h4>Jennie F.</h4>
+          <div>
+            <span>Business Owner</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Projects" class="container3">
+      <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="">
+      <img src="./images/desktop/image-gallery-cone.jpg" alt="">
+      <img src="./images/desktop/image-gallery-orange.jpg" alt="">
+      <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="">
+    </section>
   </main>
+  <footer id="Contact">
+    <div class="end">
+      <h5>Sunnyside</h5>
+      <ul>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Projects">Projects</a></li>
+      </ul>
+      <div class="icons">
+        <a href="#facebook"> <i class="fa-brands fa-facebook"></i></a>
+        <a href="#Twitter"> <i class="fa-brands fa-twitter"></i></a>
+        <a href="#Instagram"> <i class="fa-brands fa-instagram"></i></a>
+        <a href="#Pinterest"> <i class="fa-brands fa-pinterest"></i></a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
