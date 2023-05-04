@@ -283,17 +283,27 @@ h5 {
     background-color: turquoise;
   }
 
-  .five {
-    margin: 3rem;
-  }
-
   .one {
     margin-bottom: 3rem;
     text-align: center;
     width: auto;
   }
 
+  .two {
+    width: 90%;
+  }
+
   .three {
     order: 3;
+    width: 90%;
+  }
+
+  .four {
+    width: auto;
+  }
+
+  .five {
+    margin: 3rem;
+    width: auto;
   }
 }
