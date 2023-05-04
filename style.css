@@ -111,14 +111,14 @@ h2 {
   height: 90vh;
 }
 
-.four {
+.three {
   background-image: url(./images/desktop/image-stand-out.jpg);
   background-size: cover;
   width: 50%;
   height: 90vh;
 }
 
-.five {
+.four {
   background-image: url(./images/desktop/image-graphic-design.jpg);
   background-size: cover;
   width: 50%;
@@ -128,7 +128,7 @@ h2 {
   align-items: end;
 }
 
-.six {
+.five {
   height: 90vh;
   background-image: url(./images/desktop/image-photography.jpg);
   background-size: cover;
@@ -272,5 +272,26 @@ h5 {
   .nav-bar:focus .nav-items {
     opacity: 1;
     visibility: visible;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    height: 90vh;
+    background-color: turquoise;
+  }
+
+  .five {
+    margin: 3rem;
+  }
+
+  .one {
+    margin-bottom: 3rem;
+  }
+
+  .three {
+    order: 3;
   }
 }
