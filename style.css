@@ -160,25 +160,9 @@ h3 {
   font-family: "Raleway", sans-serif;
 }
 
-.img {
-  width: 12rem;
-  height: 20vh;
-  margin: 5rem auto;
-  background-position: center;
-  background-size: cover;
-  border-radius: 50rem;
-}
-
-#img1 {
-  background-image: url(./images/image-emily.jpg);
-}
-
-#img2 {
-  background-image: url(./images/image-thomas.jpg);
-}
-
-#img3 {
-  background-image: url(./images/image-jennie.jpg);
+.clients img {
+  object-fit: contain;
+  border-radius: 50%;
 }
 
 .clients {
@@ -244,10 +228,6 @@ h5 {
 }
 
 @media (max-width: 1000px) {
-  #img0 {
-    background-position: center;
-  }
-
   .container3 {
     display: grid;
     grid-template-columns: auto auto;
@@ -310,7 +290,5 @@ h5 {
   .clients {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
   }
-
 }
