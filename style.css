@@ -243,10 +243,14 @@ h5 {
 
   .nav-items {
     line-height: 4rem;
-    position: fixed;
+    position: absolute;
     visibility: hidden;
-    border-radius: 1rem;
-    margin: 5rem 5rem;
+    display: block;
+    padding: 2rem;
+    text-align: center;
+    background-color: #3dbeff;
+    border-radius: 2rem;
+    box-shadow: 0 0 3px blue;
   }
 
   .nav-bar:focus .nav-items {
