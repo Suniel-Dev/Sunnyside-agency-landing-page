@@ -253,6 +253,7 @@ h5 {
     background-position: center;
     background-size: cover;
   }
+
   .nav-bar::before {
     content: "☰";
     font-size: 3rem;
@@ -320,6 +321,7 @@ h5 {
   h3 {
     font-size: 2rem;
   }
+  
   .end ul {
     display: block;
     text-align: center;
