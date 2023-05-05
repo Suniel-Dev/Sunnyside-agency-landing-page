@@ -12,7 +12,7 @@ Creating a product landing page.
 ## Getting Started
 
 ## Live view
-[Live view]()
+[Live view](https://heartfelt-melba-ec79a4.netlify.app/)
 
 ## Prerequisite
 
