@@ -11,6 +11,12 @@
   font-family: "Raleway", sans-serif;
 }
 
+hr {
+  width: 80%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -39,20 +45,19 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   color: white;
-  height: 120vh;
 }
 
 nav {
   width: 80%;
   max-width: 1500px;
   margin: 0 auto;
-  padding: 3rem;
+  padding: 3rem 0;
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  padding-top: 1rem;
+  padding: 2rem 0;
   font-size: 2.8rem;
 }
 
@@ -74,7 +79,7 @@ nav {
 .intro {
   text-align: center;
   font-size: 3.5rem;
-  padding: 5rem;
+  padding: 9rem 0;
 }
 
 .fa-solid {
@@ -84,8 +89,12 @@ nav {
 
 .hero {
   display: flex;
-  justify-content: inherit;
+  justify-content: center;
   font-size: 1.7rem;
+}
+
+#img0 {
+  background-position: center;
 }
 
 .one {
@@ -129,9 +138,9 @@ h2 {
 }
 
 .five {
-  height: 90vh;
   background-image: url(./images/desktop/image-photography.jpg);
   background-size: cover;
+  height: 90vh;
   width: 50%;
   display: flex;
   justify-content: center;
@@ -139,7 +148,6 @@ h2 {
 }
 
 .info {
-  width: 60%;
   text-align: center;
   padding-bottom: 4rem;
   opacity: 0.5;
@@ -147,13 +155,12 @@ h2 {
 
 .container2 {
   width: 80%;
-  height: 100vh;
   margin: 0 auto;
 }
 
 h3 {
   text-align: center;
-  margin: 4rem;
+  margin: 4rem 0;
   font-size: 3rem;
   text-transform: uppercase;
   opacity: 0.5;
@@ -185,12 +192,15 @@ span {
 }
 
 .container3 {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  margin-top: 4rem;
 }
 
 .container3 img {
   width: 100%;
+  object-fit: cover;
   height: auto;
 }
 
@@ -199,7 +209,6 @@ footer {
 }
 
 .end {
-  width: 50%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -210,32 +219,41 @@ footer {
 h5 {
   font-size: 3rem;
   text-transform: uppercase;
-  padding: 5rem;
+  padding: 5rem 0 1rem;
   font-family: "Raleway", sans-serif;
+  text-align: center;
 }
 
 .end ul {
   display: flex;
-  gap: 9rem;
+  justify-content: center;
+  gap: 4rem;
+  width: 80%;
+  margin: 3rem auto;
   font-size: 2rem;
-  padding: 5rem;
 }
 
 .icons {
   font-size: 4rem;
   padding: 4rem;
-  word-spacing: 3rem;
+  text-align: center;
 }
 
 @media (max-width: 1000px) {
   .container3 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr;
+    margin: 1rem 0.5rem;
     gap: 1rem;
   }
 }
 
 @media (max-width: 750px) {
+  header {
+    background-position: center;
+    background-size: cover;
+  }
+
   .nav-bar::before {
     content: "☰";
     font-size: 3rem;
@@ -243,10 +261,14 @@ h5 {
 
   .nav-items {
     line-height: 4rem;
-    position: fixed;
+    position: absolute;
     visibility: hidden;
-    border-radius: 1rem;
-    margin: 5rem 5rem;
+    display: block;
+    padding: 2rem;
+    text-align: center;
+    background-color: #3dbeff;
+    border-radius: 2rem;
+    box-shadow: 0 0 3px blue;
   }
 
   .nav-bar:focus .nav-items {
@@ -283,12 +305,26 @@ h5 {
   }
 
   .five {
-    margin: 3rem;
     width: auto;
   }
 
   .clients {
-    display: flex;
-    flex-direction: column;
+    display: block;
+  }
+}
+
+@media (max-width: 300px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .end ul {
+    display: block;
+    text-align: center;
+    line-height: 4rem;
   }
 }
